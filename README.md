@@ -10,7 +10,7 @@ Hi, this package easy to use navigator online. Thanks to this package, you can c
     yarn add react-navigator-online
 
 # Example
-    ```javascript
+```javascript
     import React from 'react';
     import NavigatorOnline from 'react-navigator-online'
     // i want to show it with toastify.
@@ -67,4 +67,4 @@ Hi, this package easy to use navigator online. Thanks to this package, you can c
 
 
     export default Example;
-    ```
+```
