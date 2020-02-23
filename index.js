@@ -10,7 +10,7 @@ class NavigatorOnline extends React.Component {
 
     getStatus() {
         this.setState({ online: navigator.onLine })
-        if (this.props.onLine) {
+        if (this.props.onChange) {
             this.props.onChange(navigator.online)
         }
     }
