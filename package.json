@@ -1,6 +1,6 @@
 {
   "name": "react-navigator-online",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Navigator Online",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "navigator",
     "online",
     "react",
-    "enternet",
+    "internet",
     "connection"
   ],
   "author": "Ali Yaman",
