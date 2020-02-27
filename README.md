@@ -1,6 +1,8 @@
 # React Navigator Online
 Hi, this package easy to use navigator online. Thanks to this package, you can check internet connection to something or to show popup about internet connection etc.
 
+Note : I used <b>React Hooks.</b>
+
 # Demo
 <img src="./demo/demo.gif"/>
 
