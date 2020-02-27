@@ -1,32 +1,18 @@
-import React from "react";
+import React from 'react';
 
-class NavigatorOnline extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            online: navigator.onLine, // navigator state
-        };
-    }
-
-    getStatus() {
-        // if any change about enternet connection and than set state.
-        this.setState({ online: navigator.onLine })
-        if (this.props.onChange) {
-            // onChange props is okey?
-            this.props.onChange(navigator.online)
+export default function NavigatorOnline(props) {
+    // if when navigator.Online change, we can get value. (true or false)
+    const getStatus = () => {
+        if (props.onChange) {
+            props.onChange(navigator.onLine)
         }
     }
 
-    componentDidMount() {
-        // we have two Event Listenet to online and offline.
-        window.addEventListener('online', this.getStatus.bind(this));
-        window.addEventListener('offline', this.getStatus.bind(this));
-    }
+    // windows event listener (online and offline)
+    React.useEffect(() => {
+        window.addEventListener('online', getStatus);
+        window.addEventListener('offline', getStatus);
+    })
 
-    render() {
-        // we don't have render because this package not ui frontend not yet.
-        return null;
-    }
+    return null;
 }
-
-export default NavigatorOnline;
