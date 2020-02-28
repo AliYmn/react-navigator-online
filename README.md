@@ -59,7 +59,7 @@ Note : I used <b>React Hooks.</b>
                 onClose={() => alert("ok")}
             />
 
-            // we can get status this onChange function like this.
+            {/* we can get status this onChange function like this. */}
             <NavigatorOnline onChange={(status) => this.showMessage(status)} />
 
         </div>
