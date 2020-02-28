@@ -3,7 +3,13 @@ Hi, this package easy to use navigator online. Thanks to this package, you can c
 
 Note : I used <b>React Hooks.</b>
 
-# Demo
+# Demo 
+now Try right now! on netlify.
+<br><br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f21ecd1f-a05e-4df2-a36e-fd676d52680f/deploy-status)](https://app.netlify.com/sites/react-navigator-online/deploys)
+<hr>
+
+# Demo Image
 <img src="./demo/demo.gif"/>
 
 # Installation
