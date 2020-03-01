@@ -26,7 +26,9 @@ class Example extends React.Component {
         return (
             <div>
                 <center>
-                    <h1>Hello to everyone!</h1>
+                    <a href="https://github.com/AliYmn">
+                        <h1>Hello to everyone!</h1>
+                    </a>
                     <h3>We will try react-navigator-online package</h3>
                     <h3>@Author : Ali Yaman</h3>
                 </center>
